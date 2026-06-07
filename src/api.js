@@ -1,4 +1,4 @@
-const BASE_URL = 'https://inventory-system-backend-ayde.onrender.com/';
+const BASE_URL = 'http://localhost:5000';
 
 const getAuthHeader = () => {
   const user = JSON.parse(localStorage.getItem('user'));
